@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAVBAR */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffff;
+}
+
+.navbar nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+.navbar nav a:hover {
+    background-color: #e9e4e4;
+}
+
+.icon {
+    height: 20px;
+}
+
+.icon:hover {
+
+    background-color: #e9e4e4;
+}
+
+.icons span {
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+
+/* HERO SECTION */
+.hero-section-container {
+    background-image: url('assets/bg_model-y.jpg');
+    height: 85vh;
+    background-size: cover;
+    padding-top: 60px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+.hero-content-card {
+    color: #ffff;
+}
+
+.hero-content-card h1 {
+    font-size: 55px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.hero-content-card p {
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.test-drive {
+    color: #ffffff;
+    font-weight: 500;
+    display: inline-block;
+    font-size: 17px;
+}
+
+.test-drive:hover {
+    color: rgb(255, 255, 255);
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 12px 40px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.btn-orderNow {
+    background: #3e6ae1;
+    color: rgb(255, 255, 255);
+}
+
+.btn-orderNow:hover {
+    background: #1b50e1;
+}
+
+.btn-learnMore {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.btn-learnMore:hover {
+    background: #f1e7e7;
+}
+
+.hero-section-container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #ffffff;
+    padding: 60px;
+
+}
+
+.Experience-CharginTesla-card{
+    background-color: #f6f6f6;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    gap: 0px;
+    height: 30vh;
+    width: 100vw;   
+}
+
+Experience-CharginTesla-card h1{
+    padding: 20px;
+}
+
+.experience-charger-tesla-img {
+    height: 30vh;
+}
+
+
